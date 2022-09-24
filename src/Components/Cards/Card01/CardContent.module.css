@@ -1,0 +1,23 @@
+.content{
+    padding: 5px;
+}
+.product_name{
+    margin: 5px 0px 5px 20px ;
+    font-size: 30px;
+    letter-spacing: .25rem;
+
+}
+.product_desc_body{
+    margin: 2px 0px 2px 20px;
+}
+.product_desc{
+    width: 100%;
+}
+.span{
+    font-size: 50px;
+}
+.product_price{
+    letter-spacing:.2rem;
+    font-size: 30px;
+    margin: 2px 0px 5px 20px;
+}
