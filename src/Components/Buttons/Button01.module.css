@@ -3,6 +3,7 @@
 }
 .btn1{
     position: relative;
+    text-transform: uppercase;
     color:#000;
     cursor: pointer;
     width: 15rem;

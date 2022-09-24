@@ -1,6 +1,6 @@
 import React from "react";
-import Button01 from "./Button01";
 import styles from './Card01.module.css';
+import Button01 from "../../Buttons/Button01";
 import CardContent from "./CardContent";
 import Image01 from "./Image01";
 const Card01 =()=>{
