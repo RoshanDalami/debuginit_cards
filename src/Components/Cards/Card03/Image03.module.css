@@ -1,0 +1,11 @@
+.img{
+    margin: 0px 0px 0px 0px;
+    width: 200px;
+    height: 200px;
+    z-index: 2;
+    transform: scale(.8);
+    transition: transform .5s ease-in-out;
+}
+.img:hover{
+    transform: scale(1.2);
+}

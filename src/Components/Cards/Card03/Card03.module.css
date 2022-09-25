@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+   position: relative;
+   flex-direction: row;
+    align-items: center;
+    margin: 0 auto ;
+    justify-content: center;
+    background-color: #C1EFFF;
+    width: 720px;
+    height: 150px;
+    border-radius: 20px;
+    transition: margin-top .5s ease-in-out;
+    overflow: hidden;
+
+}
+.card:hover{
+    box-shadow: 20px 20px 30px 15px rgba(176, 170, 170, 0.316);
+    margin-top: -10px;
+}
+.inner_div{
+    margin: 10px;
+}

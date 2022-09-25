@@ -12,7 +12,7 @@
     overflow: hidden;
 }
 
-.card:before {
+.card::before {
     content: "";
     position: absolute;
     top: 0;
@@ -24,6 +24,7 @@
     clip-path: circle(150px at 80% 20%);
     transition: 0.5s ease-in-out;
 }
-.card:hover:before {
+.card:hover::before {
     clip-path: circle(300px at 80% -20%);
+    
 }
