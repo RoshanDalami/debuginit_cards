@@ -1,0 +1,27 @@
+.button{
+    margin-top: 30px;
+}
+.btn2{
+    position: relative;
+    font-weight: 700;
+    color:#000;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+    /* background: rgba(237, 3, 3, 0.2);
+     */
+     background: none;
+    border: none;
+    
+   text-transform:uppercase;
+   transition: all .5s ease-in-out;
+   
+}
+.btn2:hover{
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    width: 12rem;
+    letter-spacing: .2rem;
+    background: none;
+    color: red;
+}
