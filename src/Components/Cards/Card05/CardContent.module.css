@@ -1,0 +1,36 @@
+.content{
+    padding: 5px;
+    color: #fff;
+}
+.product_name{
+    margin: 5px 0px 5px 20px ;
+    font-size: 30px;
+    letter-spacing: .25rem;
+    position: relative;
+    width: 90%;
+    padding: 5px;
+    z-index: 1;
+    color: #fff;
+    display: inline;
+   
+
+}
+
+.product_desc_body{
+    margin: 40px 0px 40px 20px;
+    position: relative;
+}
+.product_desc{
+    width: 100%;
+}
+.span{
+    font-size: 50px;
+}
+.product_price_body{
+   margin-bottom: 20px;
+}
+.product_price{
+    letter-spacing:.2rem;
+    font-size: 30px;
+    margin: 2px 0px 5px 20px;
+}
