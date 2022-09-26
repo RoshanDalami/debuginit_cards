@@ -12,7 +12,6 @@ const Card04 = () => {
       </div>
       <div className={styles.inner_div}>
         <CardContent />
-     
         <Button04 />
       </div>
     </div>

@@ -1,40 +1,21 @@
 .button{
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .btn4{
+    width: 10rem;
+    height: 3rem;
     position: relative;
-    text-transform: uppercase;
-    color:#000;
-    cursor: pointer;
-    width: 15rem;
-    height: 2rem;
     background: none;
-    border: 1px black solid;
-    border-radius: 12px;
-    text-transform:uppercase;
+    border:0;
+    cursor: pointer;
+    text-transform: uppercase;
     font-weight: 700;
-    overflow: hidden;
-    transition: transform 200ms ease-in-out;
-    transition: color 200ms ease-in-out;
-    z-index: 1;
+    transition: all ease-in-out .5s;
 }
-.btn4::before{
-    content: 'Buy Now';
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    position: absolute;
-    /* z-index: -1; */
-    background-color: #CD104D;
-    border-radius: 12px;
-    transition: transform 300ms ease-in-out;
-    transform: scaleY(0);
-    transform-origin: bottom;
-}
-.btn4:hover::before,.btn4:focus::before,.btn4:hover{
-
-transform: scaleY(1);
-color: white;
-border: 0;
+.btn4:hover{
+    /* color: #CD104D; */
+    width: 12rem;
+    letter-spacing: .3rem;
+    border-bottom: 2px solid black;
+    /* background: #fa949460; */
 }
