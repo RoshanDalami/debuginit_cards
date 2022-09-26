@@ -1,0 +1,19 @@
+.card{
+    display: flex;
+   position: relative;
+   flex-direction: row;
+    align-items: center;
+    margin: 0 auto ;
+    justify-content: center;
+    background-color: #C1EFFF;
+    width: 620px;
+    height: 300px;
+    border-radius: 20px;
+    transition: margin-top .5s ease-in-out;
+    overflow: hidden;
+
+}
+
+.inner_div{
+    margin: 0px 20px;
+}
